@@ -12,7 +12,7 @@ function generateDomainNames(pronouns, adjectives, nouns, extensions) {
     for (let p of pronouns) {
         for (let a of adjectives) {
             for (let n of nouns) {
-                for (let ext of extensions){
+                for (let ext of extensions) {
                     domainNames.push(`${p}${a}${n}${ext}`);
                 }
             }
